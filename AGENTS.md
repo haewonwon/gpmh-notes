@@ -11,7 +11,6 @@ https://app.notion.com/p/Full-Stack-3dc178c4afac800b891ed30b433ee075
 
 사용자가 노션에 페이지를 만든다.
 Codex, Claude Code, Cursor는 그 페이지 주소와 주제를 받아 `tracks/`의 트랙 파일대로 학습 글을 작성하고, 저장소와 그 노션 페이지에 같은 본문을 넣는다.
-Perplexity는 작성된 노트로 공부할 때 쓴다. 사용법은 `tracks/perplexity.md`다. 학습 페이지를 새로 쓰거나 노션을 수정하지 않는다.
 
 `tracks/`는 작성 지침이다. 학습 노트가 아니다.
 
@@ -35,14 +34,14 @@ Perplexity는 작성된 노트로 공부할 때 쓴다. 사용법은 `tracks/per
 커리큘럼 위치가 이번 범위다. 그 위치보다 앞선 내용은 이미 배운 것으로 보고, 그 다음 내용은 트랙 파일의 미리보기 규칙을 따른다.
 노션 페이지 주소가 없으면 쓰기 전에 요청한다.
 
-| 폴더 | 트랙 파일 | 이 폴더의 범위 |
-| --- | --- | --- |
-| `js/` | `tracks/a-language-backend.md` | JavaScript 언어 본체. 타입 시스템과 프레임워크는 제외 |
-| `ts/` | `tracks/a-language-backend.md` | TypeScript 타입 시스템. 런타임 동작과 프레임워크는 제외 |
-| `backend/` | `tracks/a-language-backend.md` | API, 서버, 인증, BFF. 페이지 구성과 출처 규칙은 Track A를 따른다. REST·인증·BFF를 JavaScript 문법 설명으로 줄이지 않는다 |
-| `frontend/` | `tracks/b-frontend.md` | 브라우저, UI, 프레임워크. JavaScript 언어 본체, 타입 시스템, 서버 구현은 제외 |
-| `cs/computer-networks/` | `tracks/c-computer-networks.md` | 네트워크와 HTTP |
-| `cs/`의 다른 과목 | 없음 | Track C의 네트워크 설명을 적용하지 않는다 |
+| 폴더                    | 트랙 파일                       | 이 폴더의 범위                                                                                                           |
+| ----------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `js/`                   | `tracks/a-language-backend.md`  | JavaScript 언어 본체. 타입 시스템과 프레임워크는 제외                                                                    |
+| `ts/`                   | `tracks/a-language-backend.md`  | TypeScript 타입 시스템. 런타임 동작과 프레임워크는 제외                                                                  |
+| `backend/`              | `tracks/a-language-backend.md`  | API, 서버, 인증, BFF. 페이지 구성과 출처 규칙은 Track A를 따른다. REST·인증·BFF를 JavaScript 문법 설명으로 줄이지 않는다 |
+| `frontend/`             | `tracks/b-frontend.md`          | 브라우저, UI, 프레임워크. JavaScript 언어 본체, 타입 시스템, 서버 구현은 제외                                            |
+| `cs/computer-networks/` | `tracks/c-computer-networks.md` | 네트워크와 HTTP                                                                                                          |
+| `cs/`의 다른 과목       | 없음                            | Track C의 네트워크 설명을 적용하지 않는다                                                                                |
 
 폴더 `README.md`의 범위 밖을 넘지 않는다.
 `frontend/`에서 React 과목을 다룰 때 참고할 노션 페이지: https://app.notion.com/p/React-2da178c4afac801dbfeafd02ccc8ed95
