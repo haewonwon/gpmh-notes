@@ -16,12 +16,25 @@
 
 ## 노트
 
-- [HTML Parsing](html-parsing.md)
-- [Document 구조](document-structure.md)
-- [Semantic HTML](semantic-html.md)
-- [Form](form.md)
-- [Input](input.md)
-- [Accessibility 기초](accessibility-basics.md)
-- [CSS Cascade](css-cascade.md)
-- [Specificity](css-specificity.md) — 노션 본문 없음
-- [Inheritance](css-inheritance.md) — 노션 본문 없음
+### Web Platform
+
+- [HTML Parsing / Document 구조 / Semantic HTML](html-parsing-document-structure-semantic-html.md)
+- [Form / Input / Accessibility 기초](form-input-accessibility.md)
+- [CSS Cascade / Specificity / Inheritance](css-cascade-specificity-inheritance.md)
+- [Box Model / Flex / Grid / Position / Responsive Design](box-model-layout-responsive.md)
+- [DOM / Node / Element / DOM Manipulation](dom-node-element-manipulation.md)
+- [Event Capturing / Target / Bubbling / Delegation](event-propagation-delegation.md)
+- [preventDefault / stopPropagation](prevent-default-stop-propagation.md)
+- [Web API란 무엇인가](web-api.md)
+- [fetch / URL / Location / History](fetch-url-location-history.md)
+- [Cookie / LocalStorage / SessionStorage / IndexedDB](browser-storage.md)
+- [requestAnimationFrame](request-animation-frame.md)
+- [IntersectionObserver / MutationObserver / Web Worker 개념](observers-web-worker.md)
+- [script / async / defer / module](script-loading.md)
+
+### React Basics 복습
+
+- [Component / Props / State](react-component-props-state.md)
+- [Event Handling / Conditional Rendering](react-event-conditional-rendering.md)
+- [List / Key](react-list-key.md)
+- [Controlled / Uncontrolled Component](react-controlled-uncontrolled.md)
